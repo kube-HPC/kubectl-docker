@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER Eli Maor
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl nano zsh bash \
